@@ -1,0 +1,70 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@AlwaysSayingPleaseAndThankYou 
+github
+/
+gitignore
+3.2k
+120k65.9k
+Code
+Pull requests
+267
+Actions
+Security
+Insights
+gitignore/KiCad.gitignore
+@diegoherranz
+diegoherranz KiCad: add *.kicad_sch-bak and *.kicad_prl (#3427)
+…
+Latest commit 218a941 on Jul 12, 2020
+ History
+ 11 contributors
+@patrickelectric@Harrison-G@syzzer@Caerbannog@m-ou-se@jnavila@Peetz0r@Ernest314@bartlettD@diegoherranz@thatoddmailbox
+28 lines (24 sloc)  414 Bytes
+IntelliJ IDEA   
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
